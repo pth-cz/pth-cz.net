@@ -5,8 +5,9 @@
 ## Lokální rozběhání
 
 1. Nainstaluj [Docker](https://docs.docker.com/engine/installation/).
-2. Spusť `docker run -p 4000:4000 -v $(pwd):/srv/jekyll pth`
-3. Web bude přístupný z adresy http://localhost:4000/
+2. Spusť `docker build -t pth .`
+3. Spusť `docker run -p 4000:4000 -v $(pwd):/srv/jekyll pth`
+4. Web bude přístupný z adresy http://localhost:4000/
 
 
 ## Fotky Tyrannů, Ex-Tyrannů a vedení
