@@ -1,3 +1,12 @@
+- name: Matej Synak
+  start: 2018
+
+- name: Filip Nývlt
+  start: 2018
+  image: nyvlt-filip.jpg
+
+- name: Matouš David
+  start: 2018
 
 - name: Samuel Palán
   start: 2017
@@ -14,10 +23,12 @@
 
 - name: Karel Kuneš
   start: 2016
+  end: 2018
   image: kunes-karel.jpg
 
 - name: Vojtěch Myslivec
   start: 2015
+  end: 2018
   image: myslivec-vojtech.jpg
 
 - name: Jan Myslivec
@@ -26,7 +37,6 @@
 
 - name: Jan Bukáček
   start: 2014
-  end: 2017
   image: bukacek-jan.jpg
 
 - name: Václav Kučera
@@ -36,15 +46,16 @@
 
 - name: Juda Kaleta
   start: 2013
-  end: 2017
   image: kaleta-juda.jpg
 
 - name: Ondřej Myslivec
   start: 2012
+  end: 2018
   image: myslivec-ondrej.jpg
 
 - name: Samuel Lachman
   start: 2012
+  end: 2018
   image: lachman-samuel.jpg
 
 - name: Václav Kroupar
@@ -54,6 +65,7 @@
 
 - name: Matyáš Kočnar
   start: 2012
+  end: 2018
   image: kocnar-matyas.jpg
 
 - name: Vojtěch Krampota
@@ -82,6 +94,7 @@
 
 - name: Robert Friml
   start: 2010
+  end: 2018
   image: friml-robert.jpg
 
 - name: Michal Bečvář

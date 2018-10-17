@@ -9,6 +9,7 @@ redirect_from:
 <div class="tyranns">
   <h2>Vedení</h2>
 
+
   <div class="row">
     <div class="vedeni">
       <div class="col-sm-4 col-sm-offset-2">
@@ -46,6 +47,7 @@ redirect_from:
   </div>
 
   <div class="row">
+    {% assign i = 0 %}
     {% for x in site.data.tyranni reversed %}
       {% if x.end == null %}
         <div class="col-sm-3">
@@ -59,7 +61,28 @@ redirect_from:
             </div>
           </div>
         </div>
+        {% assign new_line = i|plus:1|modulo:4 %}
+        {% if new_line == 0 %}
+           </div><div class="row">
+        {% endif %}
+        {% assign i = i | plus:1 %}
       {% endif %}
+    {% endfor %}
+
+    {% assign missing = 12|minus:i %}
+    {% for x in (1..missing) %}
+        <a href="{{ site.baseurl }}/pro-uchazece/">
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="{{ site.baseurl }}/images/tyranni/{{ x.image|default:'unknown.jpg' }}" alt="{{ x.name }}" class="img-circle">
+
+            <div class="caption">
+              <h3><em>volné místo</em></h3>
+              <p><em>Tady můžeš být ty!</em></p>
+            </div>
+          </div>
+        </div>
+        </a>
     {% endfor %}
   </div>
 
@@ -67,6 +90,7 @@ redirect_from:
   <h2>Ex-Tyranni</h2>
 
   <div class="row">
+    {% assign i = 0 %}
     {% for x in site.data.tyranni %}
       {% if x.end != null %}
         <div class="col-sm-3">
@@ -80,6 +104,11 @@ redirect_from:
             </div>
           </div>
         </div>
+        {% assign new_line = i|plus:1|modulo:4 %}
+        {% if new_line == 0 %}
+           </div><div class="row">
+        {% endif %}
+        {% assign i = i | plus:1 %}
       {% endif %}
     {% endfor %}
   </div>

@@ -28,3 +28,31 @@ Pokud fotka s dotyčnou osobou ještě neexistuje (tzn. je zobrazen obrázek `un
 obrázku do složky `/images/tyranni/` upravit ještě stránku se seznamem Tyrannů `pages/tyranni.html`. V tomto souboru
 najděte dotyčnou osobu a změňte u ní cestu k obrázku.
 
+## Úpravy seznamu Tyrannů
+
+### Přidání nového Tyranna
+
+1. Otevři soubor `vim _data/tyranni.yml`
+2. Doplň nahoru do souboru informace o novém tyranovi:
+
+```yml
+- name: Franz Josef I.
+  start: 1918
+  image: franz-josef.jpg
+```
+
+3. Ulož soubor ;-)
+
+### Změna Tyranna na Ex-Tyranna
+
+1. Otevři soubor `vim _data/tyranni.yml`
+2. Najdi řádek se jménem příslušného Tyranna
+3. Za řádek se slovem `start` u daného Tyranna doplň:
+```yml
+  end: ROK UKONČENÍ PROGRAMU
+```
+4. Ulož soubor ;-)
+
+## Troubleshooting
+
+- po spuštění dostávám `Bundler::GemNotFound` --> je potřeba smazat `Gemfile.lock`
