@@ -1,4 +1,19 @@
-- name: Matej Synak
+- name: Šimon Holubec
+  start: 2019
+
+  name: Michal Stružka
+  start: 2019
+
+  name: Jan Lukeš
+  start: 2019
+
+  name: Richard Kittrell
+  start: 2019
+
+  name: Kryštov Šůstek
+  start: 2019
+
+  name: Matej Synak
   start: 2018
   end: 2018
 
@@ -34,10 +49,12 @@
 
 - name: Jan Myslivec
   start: 2015
+  end: 2019
   image: myslivec-jan.jpg
 
 - name: Jan Bukáček
-  start: 2014
+  start: 2015
+  end: 2019
   image: bukacek-jan.jpg
 
 - name: Václav Kučera
@@ -47,11 +64,11 @@
 
 - name: Juda Kaleta
   start: 2013
+  end: 2019
   image: kaleta-juda.jpg
 
 - name: Ondřej Myslivec
   start: 2012
-  end: 2018
   image: myslivec-ondrej.jpg
 
 - name: Samuel Lachman
@@ -81,6 +98,7 @@
 
 - name: Vojtěch Brabec
   start: 2011
+  end: 2019
   image: brabec-vojtech.jpg
 
 - name: Filip Pavlíček
