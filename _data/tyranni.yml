@@ -1,17 +1,22 @@
 - name: Šimon Holubec
   start: 2019
+  image: holubec-simon.jpg
 
 - name: Michal Stružka
   start: 2019
+  image: struzka-michal.jpg
 
 - name: Jan Lukeš
   start: 2019
+  image: lukes-jan.jpg
 
 - name: Richard Kittrell
   start: 2019
+  image: kittrell-richard.jpg
 
 - name: Kryštof Šůstek
   start: 2019
+  image: sustek-krystof.jpg
 
 - name: Matej Synak
   start: 2018
