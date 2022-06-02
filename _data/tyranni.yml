@@ -1,5 +1,6 @@
 - name: Šimon Holubec
   start: 2019
+  end: 2021
   image: holubec-simon.jpg
 
 - name: Michal Stružka
@@ -8,10 +9,12 @@
 
 - name: Jan Lukeš
   start: 2019
+  end: 2021
   image: lukes-jan.jpg
 
 - name: Richard Kittrell
   start: 2019
+  end: 2021
   image: kittrell-richard.jpg
 
 - name: Kryštof Šůstek
@@ -24,17 +27,21 @@
 
 - name: Filip Nývlt
   start: 2018
+  end: 2020
   image: nyvlt-filip.jpg
 
 - name: Matouš David
   start: 2018
+  end: 2020
 
 - name: Samuel Palán
   start: 2017
+  end: 2021
   image: palan-samuel.jpg
 
 - name: Zdeněk Pešička
   start: 2017
+  end: 2020
   image: pesicka-zdenek.jpg
 
 - name: Vítek Pošmůrný
