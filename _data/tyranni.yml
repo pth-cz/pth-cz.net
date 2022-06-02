@@ -1,3 +1,23 @@
+- name: Filip Čepelák
+  start: 2021
+  end: 2022
+  
+- name: Martin Maňásek
+  start: 2021
+  
+- name: Marek Lukl
+  start: 2021
+
+- name: Ruben Macík
+  start: 2020
+  
+- name: Marek Pešek
+  start: 2020
+  end: 2021
+
+- name: Honza Kříž
+  start: 2020
+
 - name: Toby Williams
   start: 2020
   image: williams-toby.jpg
