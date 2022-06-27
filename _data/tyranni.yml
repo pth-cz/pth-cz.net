@@ -1,15 +1,18 @@
 - name: Filip Čepelák
   start: 2021
   end: 2022
+  image: cepelak-filip.jpg
   
 - name: Martin Maňásek
   start: 2021
   
 - name: Marek Lukl
   start: 2021
+  image: lukl-marek.jpg
 
 - name: Ruben Macík
   start: 2020
+  image: macik-ruben.jpg
   
 - name: Marek Pešek
   start: 2020
