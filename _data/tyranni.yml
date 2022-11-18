@@ -1,3 +1,23 @@
+- name: Seongjin Jeon
+  start: 2022
+  image: jeon-seongjin.jpg
+
+- name: Josef Kříž
+  start: 2022
+  image: kriz-josef.jpg
+  
+- name: Jonatán Zelenka
+  start: 2022
+  image: zelenka-jonatan.jpg
+
+- name: Vít Pospíchal
+  start: 2022
+  image: pospichal-vit.jpg
+
+- name: Marek Maňásek
+  start: 2022
+  image: manasek-marek.jpg
+  
 - name: Filip Čepelák
   start: 2021
   end: 2022
@@ -20,7 +40,8 @@
 
 - name: Honza Kříž
   start: 2020
-
+  image: kriz-honza.jpg
+  
 - name: Toby Williams
   start: 2020
   image: williams-toby.jpg
@@ -46,6 +67,7 @@
 
 - name: Kryštof Šůstek
   start: 2019
+  end: 2022
   image: sustek-krystof.jpg
 
 - name: Matej Synak
