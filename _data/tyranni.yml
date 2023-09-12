@@ -1,5 +1,10 @@
+- name: Hanuš Kameník
+  start: 2023
+  image: kamenik-hanus.jpg
+
 - name: Seongjin Jeon
   start: 2022
+  end: 2023
   image: jeon-seongjin.jpg
 
 - name: Josef Kříž
@@ -25,9 +30,11 @@
   
 - name: Martin Maňásek
   start: 2021
+  end: 2023
   
 - name: Marek Lukl
   start: 2021
+  end: 2023
   image: lukl-marek.jpg
 
 - name: Ruben Macík
