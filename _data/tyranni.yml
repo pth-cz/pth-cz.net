@@ -1,3 +1,38 @@
+- name: Pavel Viktora
+  start: 2025
+
+
+- name: Matěj Calta
+  start: 2025
+
+- name: Štěpán Remeš
+  start: 2025
+  end: 2026
+
+- name: Michal Bršťák
+  start: 2024
+
+- name: Milan Košárek
+  start: 2024
+
+- name: Kryštof Kalvach
+  start: 2024
+  end: 2024
+
+- name: Raymond Kittrell
+  start: 2024
+
+- name: Jáchym Pospíchal
+  start: 2024
+
+- name: David Dvořák
+  start: 2024
+  end: 2024
+  
+- name: Cyril Dvořák 
+  start: 2024
+  end: 2024
+
 - name: Hanuš Kameník
   start: 2023
   image: kamenik-hanus.jpg
@@ -9,14 +44,17 @@
 
 - name: Josef Kříž
   start: 2022
+  end: 2023
   image: kriz-josef.jpg
   
 - name: Jonatán Zelenka
   start: 2022
+  end: 2024
   image: zelenka-jonatan.jpg
 
 - name: Vít Pospíchal
   start: 2022
+  end: 2023
   image: pospichal-vit.jpg
 
 - name: Marek Maňásek
@@ -51,6 +89,7 @@
   
 - name: Toby Williams
   start: 2020
+  end: 2025
   image: williams-toby.jpg
   
 - name: Šimon Holubec
@@ -60,6 +99,7 @@
 
 - name: Michal Stružka
   start: 2019
+  end:2025
   image: struzka-michal.jpg
 
 - name: Jan Lukeš
