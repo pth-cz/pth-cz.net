@@ -1,7 +1,6 @@
 - name: Pavel Viktora
   start: 2025
 
-
 - name: Matěj Calta
   start: 2025
 
@@ -99,7 +98,7 @@
 
 - name: Michal Stružka
   start: 2019
-  end:2025
+  end: 2025
   image: struzka-michal.jpg
 
 - name: Jan Lukeš
