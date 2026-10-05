@@ -29,7 +29,8 @@
 
 - name: Michal Bršťák
   start: 2024
-
+  image: brstak-michal.jpeg
+  
 - name: Milan Košárek
   start: 2024
   end: 2026
