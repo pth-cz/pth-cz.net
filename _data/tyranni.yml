@@ -1,8 +1,27 @@
+- name: Lukáš Minár
+  start: 2026
+
+- name: Martin Rajčan 
+  start: 2026
+  
+- name: Ondřej Let
+  start: 2026
+  
+- name: Ondřej Šimmer
+  start: 2026
+
+- name: Samuel Koláček
+  start: 2026
+  
+- name: Vojtěch Bečvář
+  start: 2026
+
 - name: Pavel Viktora
   start: 2025
 
 - name: Matěj Calta
   start: 2025
+  end: 2026
 
 - name: Štěpán Remeš
   start: 2025
@@ -13,6 +32,7 @@
 
 - name: Milan Košárek
   start: 2024
+  end: 2026
 
 - name: Kryštof Kalvach
   start: 2024
@@ -23,6 +43,7 @@
 
 - name: Jáchym Pospíchal
   start: 2024
+  end: 2026
 
 - name: David Dvořák
   start: 2024
@@ -34,6 +55,7 @@
 
 - name: Hanuš Kameník
   start: 2023
+  end: 2026
   image: kamenik-hanus.jpg
 
 - name: Seongjin Jeon
