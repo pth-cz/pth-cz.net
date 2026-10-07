@@ -7,6 +7,8 @@ redirect_from:
   - "m=31.html"
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 
 <div class="contact">
   <div class="row">
@@ -90,12 +92,13 @@ redirect_from:
   <div class="row">
     <div class="col-sm-12">
       <div id="map" class="map" style="height: 400px;"></div>
-         <script>
-            const map = L.map('map').setView([50.107920084963794, 14.590709127916938], 15);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'}).addTo(map);
-            L.marker([50.107920084963794, 14.590709127916938]).addTo(map);
-         </script>
+      <script>
+        const map = L.map('map').setView([50.107920084963794, 14.590709127916938], 15);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        L.marker([50.107920084963794, 14.590709127916938]).addTo(map);
+      </script>
     </div>
   </div>
 </div>
