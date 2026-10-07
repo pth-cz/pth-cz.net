@@ -89,9 +89,13 @@ redirect_from:
 
   <div class="row">
     <div class="col-sm-12">
-      <iframe
-          src="//api.mapy.cz/frame?params=%7B%22x%22%3A14.590709127916938%2C%22y%22%3A50.107920084963794%2C%22base%22%3A%221%22%2C%22layers%22%3A%5B%5D%2C%22zoom%22%3A15%2C%22url%22%3A%22https%3A%2F%2Fmapy.cz%2Fs%2FpAcP%22%2C%22mark%22%3A%7B%22x%22%3A%2214.59139577342474%22%2C%22y%22%3A%2250.10733176695521%22%2C%22title%22%3A%22Stoli%C5%88sk%C3%A1%202502%2F41b%2C%20Praha%22%7D%2C%22overview%22%3Afalse%7D&amp;width=700&amp;height=466"
-          style="border:none" frameBorder="0" class="map"></iframe>
+      <div id="map" class="map" style="height: 400px;"></div>
+         <script>
+            const map = L.map('map').setView([50.107920084963794, 14.590709127916938], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'}).addTo(map);
+            L.marker([50.107920084963794, 14.590709127916938]).addTo(map);
+         </script>
     </div>
   </div>
 </div>
